@@ -1,0 +1,303 @@
+:root {
+/* FONT */
+--main-font: Poppins, sans-serif;
+/* COLORS */
+--accent-color: #58A9A5;
+--text-color: #404242;
+--accent-text-color: #1C2323;
+--light-text-color: #FFFFFF;
+--gteen-text-color: #486958;
+--accent-line: #FEC62D;
+}
+
+body {
+    font-family: var(--main-font);
+    font-size: 25px;
+    color: var(--text-color);
+    background-color: #FFFFFF;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/** ============================== COMPONENTS ============================== **/
+
+.container {
+    width: 1158px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+} 
+
+.title {
+    font-family: var(--main-font);
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 1.5;
+    color: var(--accent-text-color);
+}
+
+.text {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--text-color);
+}
+
+/** ============================== HEADER ============================== **/
+
+.header-container {
+    margin-top: 95px;
+    margin-bottom: 105px;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.logo-wrapper {
+    margin-right: 100px;
+    
+}
+
+.img-logo {
+    margin-right: 14px;
+}
+
+.logo {
+    font-family: var(--main-font);
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 1.5;
+    color: var(--accent-color);
+}
+
+.menu {
+    display: flex;
+    gap: 86px;
+}
+
+.menu-item {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.5;
+    color: var(--accent-text-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color);
+}
+
+.btn {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 1.5;
+    color: var(--light-text-color);
+    border: 0;
+    background-color: var(--accent-color);
+    border-radius: 15px;
+    padding: 15px 40px;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+   background-color: var(--accent-line);
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);;
+}  
+
+/*HERO SECTION*/
+
+.hero {
+    margin-bottom: 140px;
+}
+
+.hero-container {
+    display: flex;
+}
+
+.main-title {
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.main-text {
+    width: 540px;
+    margin-bottom: 30px;
+}
+
+.img-wrap {
+    background: #CCF0E6;
+    border-radius: 120px;
+    margin-left: auto;
+}
+
+
+
+
+/* HOW SECTION */
+ 
+.how {
+    margin-bottom: 140px;
+}
+
+.how-title {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.how-text {
+    display: block;
+    text-align: center;
+    margin-bottom: 71px;
+}
+
+.how-wrap {
+    display: flex;
+}
+    
+.img-text {
+    background-color: #CCF0E6;
+    color: var(--gteen-text-color);
+    padding: 70px 50px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+/* MISSION SECTION */
+
+.mission {
+    margin-bottom: 140px;
+}
+
+.mis-container {
+    display: flex;
+}
+
+.mis-wrap {
+    margin-left: 142px;
+}
+
+.mis-title {
+   margin-bottom: 20px;
+}
+
+/* PROJECT SECTION */
+
+.project {
+    margin-bottom: 140px;
+}
+
+.pro-title {
+    display: block;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.pro-text {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.pro-list {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: auto;
+    gap: 60px;
+    justify-content: center;
+}
+
+
+.proj-text {
+    background-color: none;
+    width: 350px;
+    font-size: 13px;
+}
+
+.img-title {
+    text-align: center;
+    font-size: 20px;
+    color: var(--accent-color);
+    margin-bottom: 10px;
+}
+
+.pro-img {
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+
+/* TESTIMONIAL SECTION */
+
+.testimonial{
+    margin-bottom: 140px;
+}
+
+
+.testim-title {
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.testim-list {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: auto;
+    gap: 60px;
+    justify-content: center;
+}
+
+.testim-list-item {
+    align-items: center;
+}
+
+/* FOOTER */
+
+.footer-text {
+    width: 250px;
+}
